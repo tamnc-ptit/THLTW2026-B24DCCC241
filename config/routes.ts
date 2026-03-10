@@ -59,7 +59,7 @@ export default [
 	},
 {
   path: '/TH01',
-  name: 'Bai Thuc Hanh',
+  name: 'Bài Thực Hành 01',
   component: './TH01',
   routes: [
     {
@@ -73,6 +73,23 @@ export default [
       component: './TH01/Bai2',
     },
   ],
+},
+{
+	path:'/TH02',
+	name : "Bài Thực Hành 02",
+	component : "./TH02",
+	routes : [
+		{
+			name:'Bai1',
+			path:"Oan_tu_ti",
+			component:'./TH02/Bai1',
+		},
+		{
+			name:'Bai2',
+			path:'Quan_ly_cau_hoi',
+			component : './TH02/Bai2',
+		}
+	]
 },
 	// DANH MUC HE THONG
 	// {
