@@ -73,10 +73,6 @@ const ReviewReportPage: React.FC = () => {
     return (total/empReviews.length).toFixed(1);
   };
 
-  /* =========================
-     THỐNG KÊ
-  ========================= */
-
   const statsByDate:any = {};
 
   appointments.forEach(a=>{
@@ -229,7 +225,7 @@ const ReviewReportPage: React.FC = () => {
       />
 
       <Modal
-        visible={open}   /* nếu dùng Antd v5 đổi thành open */
+        visible={open} 
         onCancel={()=>setOpen(false)}
         footer={null}
         title="Đánh giá dịch vụ"
