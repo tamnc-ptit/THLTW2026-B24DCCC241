@@ -96,6 +96,11 @@ export default [
 	name : "Bai Thuc Hanh 03",
 	component : "./TH03",
 },
+{
+	path:'/TH04',
+	name : "Bai Thuc Hanh 04",
+	component:"./TH04"
+},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
