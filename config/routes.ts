@@ -116,6 +116,11 @@ export default [
 	name:"Kiem Tra Giua Ky",
 	component :"./KTGK"
 },
+{
+	path:"/TH07",
+	name : "TH07",
+	component:"./TH07"
+},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
