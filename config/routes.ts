@@ -121,6 +121,11 @@ export default [
 	name : "TH07",
 	component:"./TH07"
 },
+{
+	path:"/TH08",
+	name:"TH08",
+	component:"./TH08"
+},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
